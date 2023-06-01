@@ -1,0 +1,39 @@
+.member-form {
+  margin-top: 20px;
+}
+
+.member-form h2 {
+  margin-bottom: 10px;
+}
+
+.member-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.member-form label {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.member-form .input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.member-form .input-container label {
+  margin-right: 10px;
+}
+
+.member-form input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.member-form .form-buttons {
+  margin-top: 10px;
+  text-align: center;
+}

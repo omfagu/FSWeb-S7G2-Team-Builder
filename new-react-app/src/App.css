@@ -1,0 +1,101 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.member-info {
+  display: flex;
+  align-items: center;
+}
+
+.email,
+.role {
+  margin-left: 10px;
+}
+
+.member-actions {
+  display: flex;
+  align-items: center;
+}
+
+.member-actions button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.add-member-form {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.add-member-form h2 {
+  margin-bottom: 20px;
+}
+
+.add-member-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-member-form label {
+  margin-bottom: 5px;
+}
+
+.add-member-form input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.form-buttons {
+  margin-top: 10px;
+}
+
+.form-buttons button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.form-buttons button:last-child {
+  margin-right: 0;
+}
+.member-actions .edit-button {
+  background-color: rgb(40, 40, 165);
+  color: white;
+}
+
+.member-actions .delete-button {
+  background-color: red;
+  color: white;
+}
